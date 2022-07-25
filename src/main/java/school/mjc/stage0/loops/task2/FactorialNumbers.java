@@ -6,10 +6,8 @@ public class FactorialNumbers {
             int result = 1;
             for (int j = 1; j <= i; j++){
                 result *= j;
-                ++j;
             }
             System.out.println(result);
-            ++i;
         }
     }
 }
